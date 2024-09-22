@@ -2,7 +2,7 @@ class Solution:
     def lengthOfLongestSubstring(self, s1: str) -> int:
         v = len(s1)
         char_index = {}  # Словарь для хранения индексов символов
-        left = 0  # Левый указатель окна
+        left = 0  # Левый указатель 
         max_length = 0  # Максимальная длина подстроки
         s = ""
         #        if s1[0] =='"':
@@ -30,9 +30,7 @@ class Solution:
         return max_length
 
 
-# Создаем объект класса Solution
 solution = Solution()
-# Читаем строку с клавиатуры
 st = input()
 # solution.lengthOfLongestSubstring(st)
 
